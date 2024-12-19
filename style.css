@@ -1,0 +1,195 @@
+/* Universal styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: pink;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+/* header style */
+header {
+    background-color: #ECA408;
+    padding: 10px 80px;
+    justify-content: space-between;
+}
+
+header a {
+    font-size: 25px;
+    color: white;
+    margin-left: 55px;
+}
+
+header .container ul {
+    display: flex;
+    gap: 200px;
+}
+
+header a:hover {
+    display: block;
+    transform: scale(1.1);
+    text-shadow: 10px 5px 5px #555555;
+    font-weight: 700;
+    color: red;
+}
+
+/* section style */
+section h1 {
+    text-align: center;
+    margin: 0;
+    padding: 40px 0;
+    font-size: 30px;
+}
+
+section h2 {
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+section .food {
+    background-color: #F8FF30;
+    width: 200px;
+    border-radius: 10px;
+}
+
+section .food1 {
+    background-color: #FFB30F;
+    width: 200px;
+    border-radius: 10px;
+}
+
+section .food2 {
+    background-color: #FFB30F;
+    width: 200px;
+    border-radius: 10px;
+}
+
+section .food3 {
+    background-color: #FFB30F;
+    width: 200px;
+    border-radius: 10px;
+}
+
+section .food5 {
+    background-color: #FFB30F;
+    width: 200px;
+    border-radius: 10px;
+}
+
+section .food4 {
+    background-color: #FFB30F;
+    width: 200px;
+    border-radius: 10px;
+}
+
+section .food .p1 {
+    color: #555555;
+}
+
+section .food4 .p1 {
+    color: #555555;
+    text-align: center;
+}
+
+section .food5 .p1 {
+    color: #555555;
+    text-align: center;
+}
+
+section .food2 .p1 {
+    color: #555555;
+    text-align: center;
+}
+
+section .food3 .p1 {
+    color: #555555;
+    text-align: center;
+}
+
+section .food1 .p1 {
+    color: #555555;
+    text-align: center;
+}
+
+section .food .p1,
+.p2 {
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+}
+
+section .box {
+    display: flex;
+    gap: 40px;
+}
+
+section .box1 {
+    display: flex;
+    gap: 40px;
+    margin-top: 120px;
+}
+
+section h3 {
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    position: absolute;
+    bottom: 120px;
+}
+
+section .food:hover {
+    box-shadow: 2px 5px 20px rgb(213, 213, 213) ;
+    display: block;
+    transform: scale(1.1);
+}
+
+section .food1:hover {
+    box-shadow: 2px 5px 20px rgb(213, 213, 213) ;
+    display: block;
+    transform: scale(1.1);
+}
+
+section .food2:hover {
+    box-shadow: 2px 5px 20px rgb(213, 213, 213) ;
+    display: block;
+    transform: scale(1.1);
+}
+
+section .food3:hover {
+    box-shadow: 2px 5px 20px rgb(213, 213, 213) ;
+    display: block;
+    transform: scale(1.1);
+}
+
+section .food4:hover {
+    box-shadow: 2px 5px 20px rgb(213, 213, 213) ;
+    display: block;
+    transform: scale(1.1);
+}
+
+section .food5:hover {
+    box-shadow: 2px 5px 20px rgb(213, 213, 213) ;
+    display: block;
+    transform: scale(1.1);
+}
+
+/* footer */
+footer .container {
+    padding: 40px;
+}
